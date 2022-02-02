@@ -1,0 +1,26 @@
+/* body{
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45)
+    )
+    background-image: url(./images/pizza.jpeg);
+} */
+
+body{
+    background: 
+      /* top, transparent red */ 
+    linear-gradient(
+    rgba(255, 255, 255, 0.25), 
+    rgba(255, 255, 255, 0.25)
+    ),
+    /* bottom, image */
+    url(./images/pizza.jpeg);
+}
+.myForm{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
